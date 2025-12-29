@@ -1,0 +1,22 @@
+<resources>
+
+    <declare-styleable name="BlurImageView">
+
+        <attr name="blurImageSrc" format="reference" />
+        <attr name="blurRadius" format="float" />
+        <attr name="blurScale" format="float" />
+        <attr name="blurEnabled" format="boolean" />
+
+        <!-- NEW -->
+        <attr name="blurType">
+            <enum name="gaussian" value="0" />
+            <enum name="box" value="1" />
+            <enum name="stack" value="2" />
+        </attr>
+
+        <attr name="overlayColor" format="color" />
+        <attr name="overlayAlpha" format="float" />
+
+    </declare-styleable>
+
+</resources>
